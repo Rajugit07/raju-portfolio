@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { HiMenu, HiX } from "react-icons/hi";
+import resumePDF from "../.././public/Raju-Pradhani-Resume.pdf";
 
 const navItems = [
     { label: "Home", href: "#home" },
     { label: "Projects", href: "#projects" },
     { label: "Contact", href: "#contact" },
-    { label: "Resume", href: "/resume.pdf", download: true, isButton: true },
+    { label: "Resume", href: resumePDF, download: true, isButton: true },
 ];
 
 const Navbar = () => {

@@ -12,7 +12,7 @@ const links = [
         ),
     },
     {
-        href: "www.linkedin.com/in/raju-pradhani-mern-dev",
+        href: "http://www.linkedin.com/in/raju-pradhani",
         label: "LinkedIn",
         icon: (
             <svg fill="currentColor" viewBox="0 0 24 24" className="w-6 h-6">
