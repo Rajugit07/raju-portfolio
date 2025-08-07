@@ -47,14 +47,13 @@ const Home = () => (
         <div className="max-w-4xl mx-auto text-center z-10">
             {/* Hero Section */}
             <div className="mb-12">
-                <h1 className="text-6xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-tight tracking-tight">
+                <h1 className="text-5xl md:text-7xl lg:text-7xl font-extrabold mb-8 leading-tight tracking-tight">
                     <SplitText
                         text="Hi, I'm Raju Pradhani"
                         splitType="chars"
                         className="inline-block"
                     />
                 </h1>
-
                 <div className="mb-8">
                     <p className="text-xl md:text-3xl lg:text-4xl text-gray-300 mb-4 font-light">
                         MERN Stack Developer
