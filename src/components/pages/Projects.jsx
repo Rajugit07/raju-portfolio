@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import React from "react";
 import ProjectCard from "../ProjectCard";
 
@@ -52,38 +51,25 @@ const projects = [
         description:
             "Course Selling Platform static webpage using only React, Tailwind CSS.",
         features: ["Clean UI", "Interactive elements"],
-        techStack: ["React", "Tailwind Css",],
+        techStack: ["React", "Tailwind Css"],
         projectLink: "https://course-site-six.vercel.app/",
         githubLink: "https://github.com/Rajugit07/course-site",
     },
 ];
 
 const Projects = () => (
-    <motion.section
-        id="projects"
-        className="px-8 py-16"
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        viewport={{ once: true, amount: 0.3 }}
-    >
+    <section id="projects" className="px-8 py-16">
         <h2 className="text-3xl font-bold mb-10 text-[var(--color-accent)] ">
             Projects
         </h2>
         <div>
             {projects.map((project, idx) => (
-                <motion.div
-                    key={idx}
-                    initial={{ opacity: 0, x: idx % 2 === 0 ? -60 : 60 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.7, delay: idx * 0.15 }}
-                    viewport={{ once: true, amount: 0.3 }}
-                >
+                <div key={idx}>
                     <ProjectCard {...project} />
-                </motion.div>
+                </div>
             ))}
         </div>
-    </motion.section>
+    </section>
 );
 
 export default Projects;

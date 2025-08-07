@@ -48,17 +48,6 @@ const ProjectCard = ({
             {/* Right: Enhanced Project Details */}
             <div className="lg:w-1/2 w-full p-8 flex flex-col justify-center bg-gradient-to-br from-[#121217] via-[#1a1a1f] to-[#0f0f11] relative">
 
-                {/* Background Pattern */}
-                {/* <div className="absolute inset-0 opacity-5">
-                    <svg className="w-full h-full" viewBox="0 0 100 100" fill="none">
-                        <defs>
-                            <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
-                                <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" strokeWidth="1"/>
-                            </pattern>
-                        </defs>
-                        <rect width="100" height="100" fill="url(#grid)" />
-                    </svg>
-                </div> */}
 
                 <div className="relative z-10">
                     {/* Project Name with Accent */}
